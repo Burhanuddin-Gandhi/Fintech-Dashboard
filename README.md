@@ -1,9 +1,20 @@
-# Fintech-Dashboard
 # Fintech Dashboard
 
 This project is a frontend-based fintech dashboard built using React and Vite. It focuses on presenting financial data in a structured and user-friendly way, while also handling common edge cases and usability concerns that arise in real-world applications.
 
 The main goal of this project was not just to build a UI, but to simulate practical scenarios such as role-based access, input validation, and theme customization.
+
+---
+
+## Approach
+
+The project is built using a component-based architecture in React to ensure reusability and maintainability.
+
+State management is handled in a structured way (using local state or Redux where applicable), allowing different parts of the dashboard to stay in sync.
+
+The UI is divided into smaller reusable components such as cards, transaction lists, and layout elements. This makes it easier to scale and modify individual sections without affecting the entire application.
+
+Mock data is used to simulate real-world financial scenarios, allowing the UI and logic to be developed independently of a backend.
 
 ---
 
